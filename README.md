@@ -1,0 +1,2 @@
+# shopping_memo_app_flutter
+Flutter初心者が学習用に作成した買い物メモアプリです。商品追加・削除に対応しています。
