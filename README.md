@@ -1,21 +1,29 @@
-<<<<<<< HEAD
 # shopping_memo_app_flutter
-Flutter初心者が学習用に作成した買い物メモアプリです。商品追加・削除に対応しています。
-=======
-# shopping_memo
 
-A new Flutter project.
+Flutter 初心者が学習目的で作成した、「買い物メモアプリ」です。  
+商品を追加・削除できるシンプルな 2 画面構成のアプリになります。
 
-## Getting Started
+## デモ画面
 
-This project is a starting point for a Flutter application.
+<p align="left">
+  <img src="assets/demo.gif" width="300" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## 機能概要
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 商品をリストに追加
+- 商品をタップで削除
+- 状態管理は setState を使用
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 173e491 (feat: 初回コミット（Flutter製の買い物メモアプリ）)
+## 技術構成
+
+- Flutter 3.27.4
+- Dart 3.6.2
+- 状態管理: setState（基本構成）
+- 対応 OS: iOS / Android
+
+## 今後の拡張予定
+
+- Riverpod、go_router などの導入を検討
+- ダークモードやテーマカラーなど、UI デザインの調整
+- アイコンやレイアウトの改善など、見た目にもこだわりたい
